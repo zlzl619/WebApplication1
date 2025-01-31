@@ -1,0 +1,21 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="~/js/zhuce.js"></script>
+
+<div class="text-center">
+	<div>
+		<div align="center"><span>账号：</span><input type="text" id="zhanghao" /><br /></div>
+
+		<div align="center"><span>密码：</span><input type="password" id="mima1" /><br /></div>
+
+		<div align="center"><span>再次输入：</span><input type="password" id="mima2" /><br /></div>
+		<div align="center" type="submit" id="btn_submit" onclick="dianji()"><button>提交</button></div>
+
+
+	</div>
+</div>
+
